@@ -6,7 +6,6 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "customer_name_column",
   "vehicle",
   "make",
   "type",
@@ -75,11 +74,6 @@
    "label": "Customer Name"
   },
   {
-   "fieldname": "customer_name_column",
-   "fieldtype": "Column Break",
-   "label": "Customer Name"
-  },
-  {
    "fetch_from": "customer.mobile_no",
    "fieldname": "phone_number",
    "fieldtype": "Data",
@@ -101,7 +95,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-02 12:32:00.151476",
+ "modified": "2026-01-02 13:46:14.952868",
  "modified_by": "Administrator",
  "module": "Sanskar",
  "name": "Ride Booking",
