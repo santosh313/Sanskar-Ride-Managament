@@ -10,7 +10,10 @@ class RideBooking(Document):
 		total_price=self.price_per_km*self.estimated_km
 		service_amount=0
 		for i in self.services:
-			service_amount=service_amount+i.amount
+			if i.service:
+				amt=frappe.db.get_value("Item Price",{"item_code":i.service,"price_list": "Standard Selling"},['price_list_rate'])
+				i.amount=amt
+				service_amount=service_amount+amt
 
 		self.total_amount=total_price+service_amount
 
