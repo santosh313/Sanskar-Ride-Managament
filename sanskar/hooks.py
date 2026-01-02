@@ -8,6 +8,14 @@ app_license = "mit"
 # Apps
 # ------------------
 
+fixtures = [
+    "Item"
+    "Customer",
+    "Item Price",
+    "Contact"
+
+]
+
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
