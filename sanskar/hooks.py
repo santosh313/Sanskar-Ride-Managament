@@ -14,9 +14,7 @@ fixtures = [
     "Item Price",
     "Contact"
     "Vehicle Ride",
-    "Ride Booking",
-    "Ride Add On"
-
+    "Ride Booking"
 ]
 
 # required_apps = []
