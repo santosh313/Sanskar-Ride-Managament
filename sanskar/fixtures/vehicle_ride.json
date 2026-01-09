@@ -1,0 +1,32 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride",
+  "image": "/files/car1.jpeg",
+  "make": "Tata",
+  "modified": "2026-01-02 11:23:04.351743",
+  "name": "Tata Nano",
+  "price_per_km": 30.0,
+  "type": "Nano"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride",
+  "image": "/files/car2.jpeg",
+  "make": "Maruti",
+  "modified": "2026-01-02 11:23:57.415070",
+  "name": "Maruti Suzuki",
+  "price_per_km": 40.0,
+  "type": "Suzuki"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride",
+  "image": "/files/car3.jpeg",
+  "make": "Mahindra",
+  "modified": "2026-01-02 11:24:28.344058",
+  "name": "Mahindra Thar",
+  "price_per_km": 50.0,
+  "type": "Thar"
+ }
+]

@@ -1,0 +1,120 @@
+[
+ {
+  "booking_date": "2026-01-02",
+  "customer": "Sanskar4",
+  "data_rqdx": "Sanskar4",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": 40.0,
+  "make": "Tata",
+  "modified": "2026-01-02 16:03:31.994789",
+  "name": "Tata Nano-2026-0012",
+  "phone_number": null,
+  "price_per_km": 30.0,
+  "return_date": "2026-01-05",
+  "services": [
+   {
+    "amount": 1000.0,
+    "parent": "Tata Nano-2026-0012",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Travel Insurance"
+   },
+   {
+    "amount": 1500.0,
+    "parent": "Tata Nano-2026-0012",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 3700.0,
+  "type": "Nano",
+  "vehicle": "Tata Nano"
+ },
+ {
+  "booking_date": "2026-01-02",
+  "customer": "Sanskar",
+  "data_rqdx": "Sanskar 1",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": 40.0,
+  "make": "Maruti",
+  "modified": "2026-01-02 16:05:42.664710",
+  "name": "Maruti Suzuki-2026-0013",
+  "phone_number": "8899007766",
+  "price_per_km": 40.0,
+  "return_date": "2026-01-04",
+  "services": [
+   {
+    "amount": 1500.0,
+    "parent": "Maruti Suzuki-2026-0013",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 3100.0,
+  "type": "Suzuki",
+  "vehicle": "Maruti Suzuki"
+ },
+ {
+  "booking_date": "2026-01-03",
+  "customer": "Sanskar4",
+  "data_rqdx": "Sanskar4",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": 50.0,
+  "make": "Mahindra",
+  "modified": "2026-01-02 16:10:29.439141",
+  "name": "Mahindra Thar-2026-0014",
+  "phone_number": null,
+  "price_per_km": 50.0,
+  "return_date": "2026-01-06",
+  "services": [
+   {
+    "amount": 1500.0,
+    "parent": "Mahindra Thar-2026-0014",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Tourist Guides"
+   },
+   {
+    "amount": 500.0,
+    "parent": "Mahindra Thar-2026-0014",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Wi-Fi Access"
+   }
+  ],
+  "total_amount": 4500.0,
+  "type": "Thar",
+  "vehicle": "Mahindra Thar"
+ },
+ {
+  "booking_date": "2026-01-16",
+  "customer": "Sanskar",
+  "data_rqdx": "Sanskar 1",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": 60.0,
+  "make": "Mahindra",
+  "modified": "2026-01-02 16:11:02.360449",
+  "name": "Mahindra Thar-2026-0015",
+  "phone_number": "8899007766",
+  "price_per_km": 50.0,
+  "return_date": "2026-01-17",
+  "services": [
+   {
+    "amount": 1500.0,
+    "parent": "Mahindra Thar-2026-0015",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 4500.0,
+  "type": "Thar",
+  "vehicle": "Mahindra Thar"
+ }
+]
